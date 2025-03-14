@@ -8,14 +8,14 @@
  */
 
 #include <iostream>
-#include <cmath>
+using namespace std;
 
 //function for calculating circumference of a circle
 double calculateCircumferenceOfCircle(){
 	const double PI = 3.142;
 	double r = 4.5;
 	double C = 2 * PI * r;
-	std::cout << "The circumference of a circle with radius of " << r << " is = " << C << std::endl;	
+	cout << "The circumference of a circle with radius of " << r << " is = " << C <<endl;	
 	return 0;
 }
 

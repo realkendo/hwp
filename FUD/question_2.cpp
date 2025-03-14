@@ -8,12 +8,12 @@
  */
 
 #include <iostream>
-#include <cmath>
+using namespace std;
 
 //function for coverting Fahrenheit temperature to Celcius
 double temperatureConverter(double F){
 	double C = (F - 32) * 0.56;
-	std::cout << F <<" Fahrenheit " << " = " << C << " Celcius"<<std::endl;	
+	cout << F <<" Fahrenheit " << " = " << C << " Celcius"<<endl;	
 	return 0;
 }
 
